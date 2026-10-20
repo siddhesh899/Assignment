@@ -1,0 +1,166 @@
+//Q...1......
+#include <stdio.h>
+
+void Display(int iNo)
+{
+    while (iNo > 0)
+    {
+        printf("* ");
+        iNo--;
+    }
+}
+
+int main()
+{
+    int iValue = 0;
+
+    printf("Enter number: ");
+    scanf("%d", &iValue);
+
+    Display(iValue);
+
+    return 0;
+}
+
+
+
+//Q...2......
+
+#include <stdio.h>
+
+void Display(int iNo)
+{
+    while (iNo > 0)
+    {
+        printf("* ");
+        iNo--;
+    }
+}
+
+int main()
+{
+    int iValue = 0;
+
+    printf("Enter number: ");
+    scanf("%d", &iValue);
+
+    Display(iValue);
+
+    return 0;
+}
+
+//Q...3......
+
+#include <stdio.h>
+
+#define TRUE 1
+#define FALSE 0
+
+typedef int BOOL;
+
+BOOL ChkEven(int iNo)
+{
+    if ((iNo % 2) == 0)
+    {
+        return TRUE;
+    }
+    else
+    {
+        return FALSE;
+    }
+}
+
+int main()
+{
+    int iValue = 0;
+    BOOL bRet = FALSE;
+
+    printf("Enter number: ");
+    scanf("%d", &iValue);
+
+    bRet = ChkEven(iValue);
+
+    if (bRet == TRUE)
+    {
+        printf("Number is even");
+    }
+    else
+    {
+        printf("Number is odd");
+    }
+
+    return 0;
+}
+
+//Q...4......
+#include <stdio.h>
+
+#define TRUE 1
+#define FALSE 0
+
+typedef int BOOL;
+
+BOOL ChkEven(int iNo)
+{
+    if ((iNo % 2) == 0)
+    {
+        return TRUE;
+    }
+    else
+    {
+        return FALSE;
+    }
+}
+
+int main()
+{
+    int iValue = 0;
+    BOOL bRet = FALSE;
+
+    printf("Enter number: ");
+    scanf("%d", &iValue);
+
+    bRet = ChkEven(iValue);
+
+    if (bRet == TRUE)
+    {
+        printf("Number is even");
+    }
+    else
+    {
+        printf("Number is odd");
+    }
+
+    return 0;
+}
+
+//..Q5....
+#include <stdio.h>
+
+void Display(int iNo, int iFrequency)
+{
+    int iCnt = 0;
+
+    for(iCnt = 1; iCnt <= iFrequency; iCnt++)
+    {
+        printf("%d ", iNo);
+    }
+}
+
+int main()
+{
+    int iValue = 0;
+    int iCount = 0;
+
+    printf("Enter number: ");
+    scanf("%d", &iValue);
+
+    printf("Enter frequency: ");
+    scanf("%d", &iCount);
+
+    Display(iValue, iCount);
+
+    return 0;
+}
+
+//Q...5......
