@@ -1,0 +1,149 @@
+//Q1...divide two numbers code 
+#include <stdio.h>
+
+int Divide(int iNo1, int iNo2)
+{
+    int iAns = 0;
+
+    if (iNo2 == 0)
+    {
+        return -1;
+    }
+
+    iAns = iNo1 / iNo2;
+
+    return iAns;
+}
+
+int main()
+{
+    int iValue1 = 15, iValue2 = 5;
+    int iRet = 0;
+
+    iRet = Divide(iValue1, iValue2);
+
+    printf("Division is %d", iRet);
+
+    return 0;
+}
+
+
+
+
+//Q2..
+
+
+#include <stdio.h>
+
+int Divide(int iNo1, int iNo2)
+{
+    int iAns = 0;
+
+    if (iNo2 == 0)
+    {
+        return -1;
+    }
+
+    iAns = iNo1 / iNo2;
+
+    return iAns;
+}
+
+int main()
+{
+    int iValue1 = 15, iValue2 = 5;
+    int iRet = 0;
+
+    iRet = Divide(iValue1, iValue2);
+
+    printf("Division is %d", iRet);
+
+    return 0;
+}
+
+//@Q....3....
+#include <stdio.h>
+
+void Display()
+{
+    int i = 0;
+    i = 5;
+
+    while (i >= 1)
+    {
+        printf("%d\n", i);
+        i--;
+    }
+}
+
+int main()
+{
+    Display();
+
+    return 0;
+}
+
+
+Q4............
+#include <stdio.h>
+
+typedef int BOOL;
+#define TRUE 1
+#define FALSE 0
+
+BOOL Check(int iNo)
+{
+    if ((iNo % 5) == 0)
+    {
+        return TRUE;
+    }
+    else
+    {
+        return FALSE;
+    }
+}
+
+int main()
+{
+    int iValue = 0;
+    BOOL bRet = FALSE;
+
+    printf("Enter number");
+    scanf("%d", &iValue);
+
+    bRet = Check(iValue);
+
+    if (bRet == TRUE)
+    {
+        printf("Divisible by 5");
+    }
+    else
+    {
+        printf("Not Divisible by 5");
+    }
+
+    return 0;
+}
+
+
+Q...5.....
+#include <stdio.h>
+
+void Display()
+{
+    int i = 0;
+    i = 5;
+
+    while (i >= 1)
+    {
+        printf("%d\n", i);
+        i--;
+    }
+}
+
+int main()
+{
+    Display();
+
+    return 0;
+}
